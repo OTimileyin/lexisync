@@ -2,6 +2,7 @@ package main
 
 import "errors"
 
+
 var ErrInvalidArgs error = errors.New("Error: Please provide exactly one input file and one output file")
 
 func ParseArgs(args []string) (string, string, error) {
