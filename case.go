@@ -4,7 +4,7 @@ import "strings"
 
 func UpHandler(input string) string {
 	wordSlice := strings.Fields(input)
-
+//
 	for idx, word := range wordSlice {
 		// if word is "(up)"
 		if word == "(up)" && idx > 0 {
