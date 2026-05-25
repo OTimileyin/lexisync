@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 )
-
+//
 func HexHandler(input string) string {
 	wordslice := strings.Fields(input)
 
